@@ -1,12 +1,16 @@
 <template>
-  <div>
-    <h1>si señor</h1>
-  </div>
+  <h1>Listado de post</h1>
+  <PostContainer/>
 </template>
-<script lang="ts">
 
+
+<script lang="ts" setup>
+  import PostContainer from './components/PostContainer.vue';
 </script>
 
-<style>
 
+<style>
+h1{
+  color: green;
+}
 </style>
